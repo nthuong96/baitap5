@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    #dang-ky {
+    border: 1px solid black;
+    background-color: coral
+    }
+    #title {
+        text-align: center;
+        background-color: blue;
+    }
+    </style>
+
+</head>
+<body>
+<form id="dang-ky">
+<p id="title"> Dang ky hoc vien</p>
+<label for="name">Ho va ten</label>
+<input type="text" name="name" id="name">
+<br>
+<label for="dateofbirth">Ngay sinh</label>
+<input type="date" name="dateofbirth" id="dateofbirth">
+<p>Gender <input type="radio" name="Gender" value="male" >Nam
+    <input type="radio" name="Gender" value="female" >Nữ</p>
+<label for="address">Address <input type="text" name="address" id="address">
+    <p>Class<select name="Class" style="font: caption">
+        <option value="null">-Chon lop-</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option></select></p>
+
+    <label for="email">email</label>
+    <input type="text" name="email" id="email">
+    <br>
+    <label for="phonenumber">phonenumber</label>
+    <input type="number, id="phonenumber" name="phonenumber" >
+    <br>
+    <button value="submit">Dang ky</button>
+    <button value="reset">Nhap lai</button>
+</form>
+</body>
+</html>
